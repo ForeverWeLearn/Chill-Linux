@@ -12,6 +12,8 @@
 !.config/fish/config.fish
 !.config/hypr/hyprlock.conf
 !.config/kitty/kitty.conf
+!.config/micro/colorschemes/*
+!.config/micro/settings.json
 !.config/niri/**/*.kdl
 !.config/noctalia/templates/*
 !.config/noctalia/settings.json

@@ -115,14 +115,6 @@
             ],
             "right": [
                 {
-                    "defaultSettings": {
-                        "activeColor": "primary",
-                        "enableToast": true,
-                        "hideInactive": false,
-                        "iconSpacing": 4,
-                        "inactiveColor": "none",
-                        "removeMargins": false
-                    },
                     "id": "plugin:privacy-indicator"
                 },
                 {
@@ -188,12 +180,12 @@
                 "id": "weather-card"
             },
             {
-                "enabled": true,
+                "enabled": false,
                 "id": "media-sysmon-card"
             }
         ],
         "diskPath": "/",
-        "position": "center",
+        "position": "close_to_bar_button",
         "shortcuts": {
             "left": [
                 {
@@ -251,7 +243,7 @@
         "animationDisabled": false,
         "animationSpeed": 0.5,
         "autoStartAuth": false,
-        "avatarImage": "/home/fowel/Pictures/Avatar/catppuccin.png",
+        "avatarImage": "/home/chiller/Pictures/Avatar/catppuccin.png",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
         "clockStyle": "digital",
@@ -294,7 +286,7 @@
         "lockScreenTint": 0.5,
         "radiusRatio": 0.8,
         "reverseScroll": false,
-        "scaleRatio": 0.9,
+        "scaleRatio": 0.85,
         "screenRadiusRatio": 1,
         "shadowDirection": "center",
         "shadowOffsetX": 0,
@@ -509,19 +501,19 @@
         "bluetoothHideUnnamedDevices": false,
         "boxBorderEnabled": false,
         "fontDefault": "JetBrains Mono Medium",
-        "fontDefaultScale": 0.9,
+        "fontDefaultScale": 0.95,
         "fontFixed": "JetBrains Mono Medium",
         "fontFixedScale": 1,
         "networkPanelView": "wifi",
         "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
-        "settingsPanelMode": "centered",
+        "settingsPanelMode": "attached",
         "tooltipsEnabled": false,
         "wifiDetailsViewMode": "grid"
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "/home/fowel/Pictures/Wallpapers/Current",
+        "directory": "/home/chiller/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
@@ -537,7 +529,7 @@
         "panelPosition": "follow_bar",
         "randomIntervalSec": 1800,
         "setWallpaperOnAllMonitors": true,
-        "showHiddenFiles": false,
+        "showHiddenFiles": true,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
         "sortOrder": "name",

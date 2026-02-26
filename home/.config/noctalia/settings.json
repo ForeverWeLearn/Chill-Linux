@@ -40,17 +40,17 @@
         "autoHideDelay": 500,
         "autoShowDelay": 150,
         "backgroundOpacity": 1,
-        "barType": "framed",
+        "barType": "floating",
         "capsuleColorKey": "none",
         "capsuleOpacity": 0.5,
         "density": "spacious",
-        "displayMode": "always_visible",
-        "floating": false,
-        "frameRadius": 16,
-        "frameThickness": 12,
+        "displayMode": "non_exclusive",
+        "floating": true,
+        "frameRadius": 24,
+        "frameThickness": 14,
         "hideOnOverview": false,
-        "marginHorizontal": 12,
-        "marginVertical": 12,
+        "marginHorizontal": 18,
+        "marginVertical": 18,
         "monitors": [
             "eDP-1"
         ],
@@ -126,21 +126,6 @@
                     "id": "plugin:privacy-indicator"
                 },
                 {
-                    "defaultSettings": {
-                        "autoHeight": true,
-                        "cheatsheetData": [
-                        ],
-                        "columnCount": 3,
-                        "detectedCompositor": "",
-                        "hyprlandConfigPath": "~/.config/hypr/hyprland.conf",
-                        "modKeyVariable": "$mod",
-                        "niriConfigPath": "~/.config/niri/config.kdl",
-                        "windowHeight": 0,
-                        "windowWidth": 1400
-                    },
-                    "id": "plugin:keybind-cheatsheet"
-                },
-                {
                     "displayMode": "onhover",
                     "iconColor": "none",
                     "id": "Network",
@@ -208,7 +193,7 @@
             }
         ],
         "diskPath": "/",
-        "position": "close_to_bar_button",
+        "position": "center",
         "shortcuts": {
             "left": [
                 {
@@ -242,12 +227,12 @@
     "dock": {
         "animationSpeed": 1,
         "backgroundOpacity": 1,
-        "colorizeIcons": false,
+        "colorizeIcons": true,
         "deadOpacity": 0.6,
         "displayMode": "auto_hide",
-        "dockType": "static",
+        "dockType": "floating",
         "enabled": true,
-        "floatingRatio": 1,
+        "floatingRatio": 1.35,
         "inactiveIndicators": false,
         "monitors": [
         ],
@@ -258,7 +243,7 @@
         "position": "right",
         "showFrameIndicator": false,
         "sitOnFrame": false,
-        "size": 1.35
+        "size": 1.3
     },
     "general": {
         "allowPanelsOnScreenWithoutBar": true,
@@ -270,12 +255,12 @@
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
         "clockStyle": "digital",
-        "compactLockScreen": false,
+        "compactLockScreen": true,
         "dimmerOpacity": 0,
         "enableLockScreenCountdown": false,
         "enableShadows": true,
         "forceBlackScreenCorners": false,
-        "iRadiusRatio": 0.8,
+        "iRadiusRatio": 0.65,
         "keybinds": {
             "keyDown": [
                 "Down"
@@ -301,15 +286,15 @@
         },
         "language": "en",
         "lockOnSuspend": true,
-        "lockScreenAnimations": false,
-        "lockScreenBlur": 0,
+        "lockScreenAnimations": true,
+        "lockScreenBlur": 0.5,
         "lockScreenCountdownDuration": 10000,
         "lockScreenMonitors": [
         ],
-        "lockScreenTint": 0,
+        "lockScreenTint": 0.5,
         "radiusRatio": 0.8,
         "reverseScroll": false,
-        "scaleRatio": 0.9500000000000001,
+        "scaleRatio": 0.9,
         "screenRadiusRatio": 1,
         "shadowDirection": "center",
         "shadowOffsetX": 0,
@@ -371,7 +356,7 @@
         "density": "default",
         "enableBatteryToast": true,
         "enableKeyboardLayoutToast": true,
-        "enableMarkdown": false,
+        "enableMarkdown": true,
         "enableMediaToast": false,
         "enabled": true,
         "location": "top",
@@ -385,7 +370,7 @@
         "saveToHistory": {
             "critical": true,
             "low": false,
-            "normal": true
+            "normal": false
         },
         "sounds": {
             "criticalSoundFile": "",
@@ -450,14 +435,14 @@
                 "action": "logout",
                 "command": "",
                 "countdownEnabled": true,
-                "enabled": false,
+                "enabled": true,
                 "keybind": "4"
             },
             {
                 "action": "lock",
                 "command": "",
                 "countdownEnabled": true,
-                "enabled": false,
+                "enabled": true,
                 "keybind": "5"
             },
             {
@@ -466,6 +451,13 @@
                 "countdownEnabled": true,
                 "enabled": false,
                 "keybind": "6"
+            },
+            {
+                "action": "rebootToUefi",
+                "command": "",
+                "countdownEnabled": true,
+                "enabled": false,
+                "keybind": ""
             }
         ],
         "showHeader": false,
@@ -523,7 +515,7 @@
         "networkPanelView": "wifi",
         "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
-        "settingsPanelMode": "attached",
+        "settingsPanelMode": "centered",
         "tooltipsEnabled": false,
         "wifiDetailsViewMode": "grid"
     },
@@ -545,7 +537,7 @@
         "panelPosition": "follow_bar",
         "randomIntervalSec": 1800,
         "setWallpaperOnAllMonitors": true,
-        "showHiddenFiles": true,
+        "showHiddenFiles": false,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
         "sortOrder": "name",

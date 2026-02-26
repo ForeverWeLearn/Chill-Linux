@@ -79,10 +79,10 @@ layout {
     gaps 18
 
     struts {
-        left 8
-        right 8
-        top 8
-        bottom 8
+        left 80
+        right 80
+        top 60
+        bottom 60
     }
 
     focus-ring {
@@ -158,4 +158,9 @@ animations {
 window-rule {
     geometry-corner-radius 11
     clip-to-geometry true
+}
+
+window-rule {
+    match app-id="kitty"
+    default-column-width { proportion 0.8; }
 }

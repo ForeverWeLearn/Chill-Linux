@@ -1,5 +1,6 @@
-prefer-no-csd
 screenshot-path "~/Pictures/Screenshots/%Y-%m-%d %H-%M-%S.png"
+
+prefer-no-csd
 
 output "eDP-1" {
     mode "3840x2160@60"
@@ -7,11 +8,6 @@ output "eDP-1" {
 }
 
 input {
-    mouse {
-        accel-speed -0.8
-        accel-profile "flat"
-    }
-
     touchpad {
         tap
         natural-scroll
@@ -91,7 +87,7 @@ layout {
 
     border {
         on
-        width 3
+        width 4
         active-color "#cba6f7"
         inactive-color "#585b70"
     }
@@ -107,11 +103,11 @@ layout {
     tab-indicator {
         hide-when-single-tab
         corner-radius 4
-        width 4
-        position "left"
+        width 6
+        position "top"
         length total-proportion=0.95
-        gap 3
-        gaps-between-tabs 3
+        gap 12
+        gaps-between-tabs 10
     }
 }
 

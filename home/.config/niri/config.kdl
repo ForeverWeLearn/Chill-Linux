@@ -110,7 +110,8 @@ binds {
 }
 
 include "./base.kdl"
-include "./uni-wallpaper.kdl"
+include "./extend.kdl"
+include "./single-wallpaper.kdl"
 
 include "./noctalia.kdl"
 

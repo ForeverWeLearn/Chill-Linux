@@ -210,6 +210,8 @@
 <strong><i>Yes, sure.</i></strong>
 </summary>
 
+<img src="./assets/imgs/transparent.png" height="12" />
+
 If so, you are already familiar with _dotfiles_ (`~/.config`, `~/.local/bin`)
 
 Just clone the repo:
@@ -234,7 +236,7 @@ Copy files from `src/.config` to your `~/.config`. Edit as you want.
     <strong>🔥 niri</h4></strong>
 </summary>
 
-<img src="./assets/imgs/transparent.png" height="30" />
+<img src="./assets/imgs/transparent.png" height="20" />
 
 Copy `src/.config/niri` → `~/.config/niri`
 
@@ -308,7 +310,7 @@ include "./wallpaper.kdl"   // Remove this line
     <strong>🦉 Noctalia</h4></strong>
 </summary>
 
-<img src="./assets/imgs/transparent.png" height="30" />
+<img src="./assets/imgs/transparent.png" height="20" />
 
 Copy `src/.config/noctalia` → `~/.config/noctalia`
 
@@ -361,7 +363,7 @@ This Noctalia setup include 3 plugins:
     <strong>😽 kitty</h4></strong>
 </summary>
 
-<img src="./assets/imgs/transparent.png" height="30" />
+<img src="./assets/imgs/transparent.png" height="20" />
 
 Copy `src/.config/kitty` → `~/.config/kitty`
 
@@ -396,7 +398,7 @@ window_padding_width        30 40   # Smaller
     <strong>🎮 yazi</h4></strong>
 </summary>
 
-<img src="./assets/imgs/transparent.png" height="30" />
+<img src="./assets/imgs/transparent.png" height="20" />
 
 Copy `src/.config/yazi` → `~/.config/yazi`
 
@@ -421,7 +423,7 @@ Copy `src/.config/yazi` → `~/.config/yazi`
     <strong>🌐 Zen Browser</h4></strong>
 </summary>
 
-<img src="./assets/imgs/transparent.png" height="30" />
+<img src="./assets/imgs/transparent.png" height="20" />
 
 Zen is a little bit trickier to customize.
 

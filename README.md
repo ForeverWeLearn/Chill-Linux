@@ -8,7 +8,7 @@
 <p align="center">
   <i>
     <span>☕ Chill first...</span></br>
-    <span>...productivity later!</span>
+    <span>Productivity later!</span>
   </i>
 </p>
 
@@ -73,7 +73,7 @@
     <td align="center">
         <img src="./assets/imgs/icons/cachyos.svg" alt="CachyOS" height="64" /><br/>
         <a href="https://cachyos.org/">CachyOS</a></br>
-        <sub>Arch at light speed</sub>
+        <sub>Arch at lightspeed</sub>
     </td>
     <td align="center">
         <img src="./assets/imgs/icons/niri-icon.svg" alt="niri" height="64" /><br/>
@@ -226,7 +226,7 @@ Copy files from `src/.config` to your `~/.config`. Edit as you want.
 
 &nbsp;
 
-🤕 Or not? No problem, follow the guide 👇 
+🤕 New to dotfiles? No problem, follow the guide 👇 
 
 &nbsp;
 
@@ -282,7 +282,7 @@ output "eDP-1" {
 
 **🖼️ Wallpaper mode**
 
-This setup use one wallpaper for all workspaces (similar to traditional desktop).
+This setup uses one wallpaper for all workspaces (similar to traditional desktop).
 
 <img src="./assets/imgs/single-wallpaper.png" width="65%" />
 
@@ -425,9 +425,9 @@ Copy `src/.config/yazi` → `~/.config/yazi`
 
 <img src="./assets/imgs/transparent.png" height="20" />
 
-Zen is a little bit trickier to customize.
+Zen is a bit trickier to customize.
 
-You would follow [Live Editing Zen Theme](https://docs.zen-browser.app/guides/live-editing) and use `src/.config/zen/userChrome.css` as source for your `userChrome.css`.
+Follow the [Live Editing Zen Theme](https://docs.zen-browser.app/guides/live-editing) and use `src/.config/zen/userChrome.css` as source for your `userChrome.css`.
 
 <table>
 <tr>
@@ -448,7 +448,7 @@ You would follow [Live Editing Zen Theme](https://docs.zen-browser.app/guides/li
 
 Copy `src/Pictures/Wallpapers` → `~/Pictures/Wallpapers`
 
-To keep the mimimalist, this setup use only 3 wallpapers.
+To keep it minimalist, this setup uses only 3 wallpapers.
 
 <table>
 <tr>

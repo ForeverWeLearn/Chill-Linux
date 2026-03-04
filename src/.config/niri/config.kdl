@@ -78,18 +78,18 @@ binds {
 
 
     // #"Mouse"
-    Mod+WheelScrollUp           hotkey-overlay-title="Focus workspace ↑"        cooldown-ms=250 { focus-workspace-up; }
-    Mod+WheelScrollDown         hotkey-overlay-title="Focus workspace ↓"        cooldown-ms=250 { focus-workspace-down; }
-    Mod+Shift+WheelScrollUp     hotkey-overlay-title="Focus column ←"           cooldown-ms=75  { focus-column-left; }
-    Mod+Shift+WheelScrollDown   hotkey-overlay-title="Focus column →"           cooldown-ms=75  { focus-column-right; }
-    Mod+Ctrl+WheelScrollUp      hotkey-overlay-title="Move window ↑"            cooldown-ms=250 { move-column-to-workspace-up; }
-    Mod+Ctrl+WheelScrollDown    hotkey-overlay-title="Move window ↓"            cooldown-ms=250 { move-column-to-workspace-down; }
+    Mod+WheelScrollUp           hotkey-overlay-title="Focus workspace ↑"    cooldown-ms=250 { focus-workspace-up; }
+    Mod+WheelScrollDown         hotkey-overlay-title="Focus workspace ↓"    cooldown-ms=250 { focus-workspace-down; }
+    Mod+Shift+WheelScrollUp     hotkey-overlay-title="Focus column ←"       cooldown-ms=75  { focus-column-left; }
+    Mod+Shift+WheelScrollDown   hotkey-overlay-title="Focus column →"       cooldown-ms=75  { focus-column-right; }
+    Mod+Ctrl+WheelScrollUp      hotkey-overlay-title="Move window ↑"        cooldown-ms=250 { move-column-to-workspace-up; }
+    Mod+Ctrl+WheelScrollDown    hotkey-overlay-title="Move window ↓"        cooldown-ms=250 { move-column-to-workspace-down; }
 
 
     // #"Screenshot"
-    Mod+S                       hotkey-overlay-title="Manual creenshot"        { screenshot show-pointer=false; }
-    Mod+A                       hotkey-overlay-title="Screen screenshot"        { screenshot-screen show-pointer=false; }
-    Mod+W                       hotkey-overlay-title="Window screenshot"        { screenshot-window; }
+    Mod+S                       hotkey-overlay-title="Manual creenshot"     { screenshot show-pointer=false; }
+    Mod+A                       hotkey-overlay-title="Screen screenshot"    { screenshot-screen show-pointer=false; }
+    Mod+W                       hotkey-overlay-title="Window screenshot"    { screenshot-window; }
 
 
     // #"XF86"

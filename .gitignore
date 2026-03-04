@@ -1,17 +1,22 @@
 *
-
 !*/
-
 !**/.gitignore
 
 !/README.md
 !assets/**/*
 !docs/**/*
 
-!home/.config/fish/config.fish
-!home/.config/kitty/**/*
-!home/.config/niri/**/*.kdl
-!home/.config/noctalia/templates/niri.kdl
-!home/.config/noctalia/*
-!home/.config/starship.toml
-!home/Pictures/**/*
+!src/.config/fish/config.fish
+
+!src/.config/kitty/**/*
+
+!src/.config/niri/**/*.kdl
+
+!src/.config/noctalia/templates/niri.kdl
+!src/.config/noctalia/*
+
+!src/.config/yazi/**/*
+
+!src/.config/starship.toml
+
+!src/Pictures/**/*

@@ -3,7 +3,7 @@ screenshot-path "~/Pictures/Screenshots/%Y-%m-%d %H-%M-%S.png"
 prefer-no-csd
 
 output "eDP-1" {
-    mode "3840x2160@60"
+    mode "1920x1080@60"
     scale 2.5
 }
 
@@ -75,8 +75,8 @@ layout {
     gaps 18
 
     struts {
-        left 80
-        right 80
+        left 72
+        right 72
         top 60
         bottom 60
     }
@@ -115,39 +115,39 @@ animations {
     slowdown 3.0
 
     overview-open-close {
-        spring damping-ratio=1.0 stiffness=500 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=500 epsilon=0.00001
     }
 
     horizontal-view-movement {
-        spring damping-ratio=1.0 stiffness=300 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=300 epsilon=0.00001
     }
 
     workspace-switch {
-        spring damping-ratio=1.0 stiffness=300 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=300 epsilon=0.00001
     }
 
     window-open {
-        spring damping-ratio=1.0 stiffness=500 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=500 epsilon=0.00001
     }
 
     window-close {
-        spring damping-ratio=1.0 stiffness=300 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=300 epsilon=0.00001
     }
 
     window-movement {
-        spring damping-ratio=1.0 stiffness=400 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=400 epsilon=0.00001
     }
 
     window-resize {
-        spring damping-ratio=1.0 stiffness=400 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=400 epsilon=0.00001
     }
 
     config-notification-open-close {
-        spring damping-ratio=1.0 stiffness=600 epsilon=0.001
+        spring damping-ratio=1.0 stiffness=600 epsilon=0.0001
     }
 
     exit-confirmation-open-close {
-        spring damping-ratio=1.0 stiffness=800 epsilon=0.001
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
     }
 }
 

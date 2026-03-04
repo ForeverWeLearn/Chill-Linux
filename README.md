@@ -71,17 +71,17 @@
 
 <tr>
     <td align="center">
-        <img src="./assets/imgs/icons/cachyos.svg" alt="CachyOS" height="84"/><br/>
+        <img src="./assets/imgs/icons/cachyos.svg" alt="CachyOS" height="64" /><br/>
         <a href="https://cachyos.org/">CachyOS</a></br>
         <sub>Arch at light speed</sub>
     </td>
     <td align="center">
-        <img src="./assets/imgs/icons/niri-logo.svg" alt="niri" height="84"/><br/>
+        <img src="./assets/imgs/icons/niri-icon.svg" alt="niri" height="64" /><br/>
         <a href="https://github.com/niri-wm/niri">niri</a></br>
         <sub>Infinity space</sub>
     </td>
     <td align="center">
-        <img src="./assets/imgs/icons/noctalia.svg" alt="Noctalia" height="84"/><br/>
+        <img src="./assets/imgs/icons/noctalia.svg" alt="Noctalia" height="64" /><br/>
         <a href="https://docs.noctalia.dev/getting-started/installation/">Noctalia</a></br>
         <sub><i>"quiet by design"</i></sub>
     </td>
@@ -163,27 +163,27 @@
 
 <tr>
     <td align="center">
-        <img src="./assets/imgs/icons/fish.png" alt="fish" height="48"/><br/>
+        <img src="./assets/imgs/icons/fish.png" alt="fish" height="54"/><br/>
         <a href="https://fishshell.com/docs/current/">fish</a>
     </td>
     <td align="center">
-        <img src="./assets/imgs/icons/kitty.svg" alt="kitty" height="48"/><br/>
+        <img src="./assets/imgs/icons/kitty.svg" alt="kitty" height="54"/><br/>
         <a href="https://sw.kovidgoyal.net/kitty/">kitty</a>
     </td>
     <td align="center">
-        <img src="./assets/imgs/icons/starship.png" alt="Starship" height="48"/><br/>
+        <img src="./assets/imgs/icons/starship.png" alt="Starship" height="54"/><br/>
         <a href="https://starship.rs/">Starship</a>
     </td>
     <td align="center">
-        <img src="./assets/imgs/icons/nautilus.webp" alt="Nautilus" height="48"/><br/>
+        <img src="./assets/imgs/icons/nautilus.webp" alt="Nautilus" height="54"/><br/>
         <a href="https://yazi-rs.github.io/">Nautilus</a>
     </td>
     <td align="center">
-        <img src="./assets/imgs/icons/yazi.webp" alt="Yazi" height="48"/><br/>
+        <img src="./assets/imgs/icons/yazi.webp" alt="Yazi" height="54"/><br/>
         <a href="https://yazi-rs.github.io/">Yazi</a>
     </td>
     <td align="center">
-        <img src="./assets/imgs/icons/zen.png" alt="Zen Browser" height="48"/><br/>
+        <img src="./assets/imgs/icons/zen.png" alt="Zen Browser" height="54"/><br/>
         <a href="https://zen-browser.app/">Zen Browser</a>
     </td>
 </tr>

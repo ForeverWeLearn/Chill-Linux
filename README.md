@@ -228,7 +228,7 @@ Copy files from `src/.config` to your `~/.config`. Edit as you want.
     <strong>🔥 niri</h4></strong>
 </summary>
 
-Copy `src/.config/niri` -> `~/.config/niri`
+Copy `src/.config/niri` → `~/.config/niri`
 
 ```md
 niri
@@ -274,11 +274,11 @@ output "eDP-1" {
 
 This setup use one wallpaper for all workspaces (similar to traditional desktop).
 
-<img src="./assets/imgs/single-wallpaper.png" height="200" />
+<img src="./assets/imgs/single-wallpaper.png" width="65%" />
 
 By default Niri have multiple wallpaper for each workspace.
 
-<img src="./assets/imgs/multiple-wallpaper.png" height="200" />
+<img src="./assets/imgs/multiple-wallpaper.png" width="65%" />
 
 To use default, remove the import in `config.kdl`: 
 
@@ -300,9 +300,9 @@ include "./wallpaper.kdl"   // Remove this line
     <strong>🦉 Noctalia</h4></strong>
 </summary>
 
-Copy `src/.config/noctalia` -> `~/.config/noctalia`
+Copy `src/.config/noctalia` → `~/.config/noctalia`
 
-This include 3 plugins:
+This Noctalia setup include 3 plugins:
 
 <table>
 
@@ -314,7 +314,7 @@ This include 3 plugins:
         </p>
     </td>
     <td>
-        <p align="center"><img src="./assets/imgs/keybind-cheatsheet.png" height="280" /></p>
+        <p align="center"><img src="./assets/imgs/keybind-cheatsheet.png" /></p>
     </td>
 </tr>
 <tr>
@@ -325,7 +325,7 @@ This include 3 plugins:
         </p>
     </td>
     <td>
-        <p align="center"><img src="./assets/imgs/screen-recorder.png" height="280" /></p>
+        <p align="center"><img src="./assets/imgs/screen-recorder.png" height="320" /></p>
     </td>
 </tr>
 <tr>
@@ -335,7 +335,7 @@ This include 3 plugins:
         </p>
     </td>
     <td>
-        <p align="center"><img src="./assets/imgs/privacy-indicator.png" height="160" /></p>
+        <p align="center"><img src="./assets/imgs/privacy-indicator.png" height="240" /></p>
     </td>
 </tr>
 
@@ -351,7 +351,7 @@ This include 3 plugins:
     <strong>😽 kitty</h4></strong>
 </summary>
 
-Copy `src/.config/kitty` -> `~/.config/kitty`
+Copy `src/.config/kitty` → `~/.config/kitty`
 
 <table>
 <tr>
@@ -384,7 +384,7 @@ window_padding_width        30 40   # Smaller
     <strong>🎮 yazi</h4></strong>
 </summary>
 
-Copy `src/.config/yazi` -> `~/.config/yazi`
+Copy `src/.config/yazi` → `~/.config/yazi`
 
 <table>
 <tr>

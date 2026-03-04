@@ -204,7 +204,13 @@ video preview
 
 &nbsp;
 
-🐱 You are a ***ULTRA-PRO-VIP*** Arch user?
+🐱 Are you an ***ULTRA-PRO-VIP*** Arch user?
+
+<details>
+
+<summary>
+<strong><i>Yes, sure.</i></strong>
+</summary>
 
 If so, you are already familiar with _dotfiles_ (`~/.config`, `~/.local/bin`)
 
@@ -215,6 +221,8 @@ git clone https://github.com/ForeverWeLearn/niri-dotfiles.git
 ```
 
 Copy files from `src/.config` to your `~/.config`. Edit as you want.
+
+</details>
 
 &nbsp;
 
@@ -240,7 +248,7 @@ niri
 
 👇
 
-##### 🖥️ Output
+**🖥️ Output**
 
 You may want to adjust `output` in `base.kdl` to match your screen *resolution* and *refresh rate*:
 
@@ -270,7 +278,7 @@ output "eDP-1" {
 
 👇
 
-##### 🖥️ Wallpaper mode
+**🖼️ Wallpaper mode**
 
 This setup use one wallpaper for all workspaces (similar to traditional desktop).
 
@@ -426,7 +434,7 @@ You would follow [Live Editing Zen Theme](https://docs.zen-browser.app/guides/li
 
 &nbsp;
 
-#### 🖼️ Wallpapers
+### 🖼️ Wallpapers
 
 Find in `src/Pictures/Wallpapers`
 

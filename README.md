@@ -33,12 +33,12 @@
     <sup>Zen Browser</sup>
 </p>
 <p align="center">
-    <img src="./assets/imgs/nautilus.png" alt="Nautilus" width="60%"/></br>
-    <sup>File Manager (Nautilus)</sup>
-</p>
-<p align="center">
     <img src="./assets/imgs/yazi.png" alt="yazi" width="90%"/></br>
     <sup>Terminal File Manager (yazi)</sup>
+</p>
+<p align="center">
+    <img src="./assets/imgs/nautilus.png" alt="Nautilus" width="60%"/></br>
+    <sup>File Manager (Nautilus)</sup>
 </p>
 
 &nbsp;
@@ -133,7 +133,7 @@
     <td align="center" valign="top">
         <img src="./assets/imgs/icons/google-dot.png" alt="GoogleDot" height="64"/><br/>
         <a href="https://github.com/ful1e5/Google_Cursor">GoogleDot</a></br>
-        <sub>It's just circle</sub>
+        <sub>Minimalist cursor theme</sub>
     </td>
 </tr>
 
@@ -176,7 +176,7 @@
     </td>
     <td align="center">
         <img src="./assets/imgs/icons/nautilus.webp" alt="Nautilus" height="54"/><br/>
-        <a href="https://yazi-rs.github.io/">Nautilus</a>
+        <a href="https://apps.gnome.org/Nautilus/">Nautilus</a>
     </td>
     <td align="center">
         <img src="./assets/imgs/icons/yazi.webp" alt="Yazi" height="54"/><br/>
@@ -194,7 +194,7 @@
 
 &nbsp;
 
-<h3 align="center">_ SETUP _</h3>
+<h3 align="center">_ INSTALATION _</h3>
 
 &nbsp;
 
@@ -202,7 +202,7 @@
 
 &nbsp;
 
-🐱 Are you an ***ULTRA-PRO-VIP*** Arch user?
+🐱 Are you an ***Arch power user***?
 
 <details>
 
@@ -226,7 +226,7 @@ Copy files from `src/.config` to your `~/.config`. Edit as you want.
 
 &nbsp;
 
-🤕 New to dotfiles? No problem, follow the guide 👇 
+🤕 New to *dotfiles*? No problem, follow the guide 👇 
 
 &nbsp;
 
@@ -463,6 +463,16 @@ To keep it minimalist, this setup uses only 3 wallpapers.
     </td>
 </tr>
 </table>
+
+&nbsp;
+
+&nbsp;
+
+<h3 align="center">_ FEEDBACK & CONTRIBUTION _</h3><br/>
+
+This is my first time **"ricing"** a Linux desktop, so things might still be a bit "nerdy" or unoptimized compared to more established setups. 
+
+If you find a bug, have a suggestion, or know a way to make the configuration cleaner, please **open an issue**! Your help in making this "chill" experience even better is highly appreciated.
 
 &nbsp;
 

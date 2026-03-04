@@ -20,9 +20,9 @@ binds {
     Mod+V               hotkey-overlay-title="Clipboard"            { spawn-sh "qs -c noctalia-shell ipc call launcher clipboard"; }
     Mod+Slash           hotkey-overlay-title="Emoji"                { spawn-sh "qs -c noctalia-shell ipc call launcher emoji"; }
     Mod+Shift+N         hotkey-overlay-title="Network"              { spawn-sh "qs -c noctalia-shell ipc call network togglePanel"; }
-    Mod+P               hotkey-overlay-title="Lock screen"          { spawn-sh "qs -c noctalia-shell ipc call lockScreen"; }
+    Mod+P               hotkey-overlay-title="Lock screen"          { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
     Mod+Shift+S         hotkey-overlay-title="Session Menu"         { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
-    Mod+0               hotkey-overlay-title="Random Wallpaper"     { spawn-sh "qs -c noctalia-shell ipc call wallpaper random"; }
+    Mod+0               hotkey-overlay-title="Random Wallpaper"     { spawn-sh "qs -c noctalia-shell ipc call wallpaper random eDP-1"; }
     Mod+Shift+R         hotkey-overlay-title="Screen Record"        { spawn-sh "qs -c noctalia-shell ipc call plugin:screen-recorder toggle"; }
 
 

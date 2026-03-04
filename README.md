@@ -261,8 +261,8 @@ Example: `1366x768@30`, `2560x1440@120`, `3840x2160@60`, ...
 // base.kdl
 
 output "eDP-1" {
-    mode "3840x2160@240"   <-- 4k at 240hz
-    scale 1.5              <-- Smaller scale (smaller UI)
+    mode "3840x2160@240"   // 4k at 240hz
+    scale 1.5              // Smaller scale (smaller UI)
 }
 
 // ...

@@ -367,8 +367,8 @@ Copy `src/.config/kitty` → `~/.config/kitty`
     <th><p align="center">After</p></th>
 </tr>
 <tr>
-    <td><img src="./assets/imgs/kitty-before.png" height="180" /></td>
-    <td><img src="./assets/imgs/kitty.png" height="180" /></td>
+    <td width="48%"><img src="./assets/imgs/kitty-before.png" /></td>
+    <td><img src="./assets/imgs/kitty.png" /></td>
 </tr>
 </table>
 
@@ -400,8 +400,8 @@ Copy `src/.config/yazi` → `~/.config/yazi`
     <th><p align="center">After</p></th>
 </tr>
 <tr>
-    <td valign="center"><img src="./assets/imgs/yazi-before.png" /></td>
-    <td valign="center"><img src="./assets/imgs/yazi.png" /></td>
+    <td><img src="./assets/imgs/yazi-before.png" /></td>
+    <td><img src="./assets/imgs/yazi.png" /></td>
 </tr>
 </table>
 
@@ -425,8 +425,8 @@ You would follow [Live Editing Zen Theme](https://docs.zen-browser.app/guides/li
     <th><p align="center">With custom css</p></th>
 </tr>
 <tr>
-    <td valign="center" width="45%"><img src="./assets/imgs/zen-original.png" /></td>
-    <td valign="center"><img src="./assets/imgs/zen-browser.png" /></td>
+    <td width="46%"><img src="./assets/imgs/zen-original.png" /></td>
+    <td><img src="./assets/imgs/zen-browser.png" /></td>
 </tr>
 </table>
 
@@ -436,7 +436,7 @@ You would follow [Live Editing Zen Theme](https://docs.zen-browser.app/guides/li
 
 ### 🖼️ Wallpapers
 
-Find in `src/Pictures/Wallpapers`
+Copy `src/Pictures/Wallpapers` → `~/Pictures/Wallpapers`
 
 To keep the mimimalist, this setup use only 3 wallpapers.
 

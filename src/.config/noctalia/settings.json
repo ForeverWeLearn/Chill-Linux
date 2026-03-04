@@ -457,14 +457,14 @@
                 "action": "logout",
                 "command": "",
                 "countdownEnabled": true,
-                "enabled": true,
+                "enabled": false,
                 "keybind": "4"
             },
             {
                 "action": "lock",
                 "command": "",
                 "countdownEnabled": true,
-                "enabled": true,
+                "enabled": false,
                 "keybind": "5"
             },
             {

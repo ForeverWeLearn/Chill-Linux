@@ -5,16 +5,12 @@
 
 &nbsp;
 
-<h6 align="center">
+<p align="center">
   <i>
-    <p>☕ Chill first...</p> 
-    <p>...productivity later!</p>
+    <span>☕ Chill first...</span></br>
+    <span>...productivity later!</span>
   </i>
-</h6>
-
-&nbsp;
-
-<p align="center"><i>Copy&Paste Linux for chill guys</i></p>
+</p>
 
 &nbsp;
 
@@ -31,15 +27,15 @@ video preview
 &nbsp;
 
 <p align="center">
-    <img src="./assets/imgs/kitty.png" alt="kitty" width="90%"/></br>
+    <img src="./assets/imgs/kitty.png" alt="kitty" width="80%"/></br>
     <sup>Terminal (kitty)</sup>
 </p>
 <p align="center">
-    <img src="./assets/imgs/zen-browser.png" alt="Zen Browser" width="90%"/></br>
+    <img src="./assets/imgs/zen-browser.png" alt="Zen Browser" width="100%"/></br>
     <sup>Zen Browser</sup>
 </p>
 <p align="center">
-    <img src="./assets/imgs/nautilus.png" alt="Nautilus" width="65%"/></br>
+    <img src="./assets/imgs/nautilus.png" alt="Nautilus" width="60%"/></br>
     <sup>File Manager (Nautilus)</sup>
 </p>
 <p align="center">
@@ -210,7 +206,7 @@ video preview
 
 🐱 You are a ***ULTRA-PRO-VIP*** Arch user?
 
-If so, you are already familiar with _dotfiles_ (`~/.config`, `~/.local/bin`...)
+If so, you are already familiar with _dotfiles_ (`~/.config`, `~/.local/bin`)
 
 Just clone the repo:
 
@@ -256,10 +252,10 @@ output "eDP-1" {
     scale 2.5             // Also this
 }
 
-...
+// ...
 ```
 
-Example: `1366x768@30`, `2560x1440@120`, `3840x2160@60` ...
+Example: `1366x768@30`, `2560x1440@120`, `3840x2160@60`, ...
 
 ```kdl
 // base.kdl
@@ -269,7 +265,7 @@ output "eDP-1" {
     scale 1.5              <-- Smaller scale (smaller UI)
 }
 
-...
+// ...
 ```
 
 👇
@@ -292,7 +288,7 @@ To use default, remove the import in `config.kdl`:
 include "./base.kdl"
 include "./wallpaper.kdl"   // Remove this line
 
-...
+// ...
 ```
 </details>
 
@@ -375,7 +371,7 @@ You may change `window_padding_width` if you find it too wide:
 
 window_padding_width        30 40   # Smaller
 
-...
+# ...
 ```
 
 </details>

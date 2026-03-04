@@ -210,7 +210,7 @@ video preview
 
 🐱 You are a ***ULTRA-PRO-VIP*** Arch user?
 
-If so, you already have familar with _dotfiles_ (`~/.config`, `~/.local/bin`...)
+If so, you are already familiar with _dotfiles_ (`~/.config`, `~/.local/bin`...)
 
 Just clone the repo:
 
@@ -390,6 +390,17 @@ window_padding_width        30 40   # Smaller
 
 Copy `src/.config/yazi` -> `~/.config/yazi`
 
+<table>
+<tr>
+    <th><p align="center">Before</p></th>
+    <th><p align="center">After</p></th>
+</tr>
+<tr>
+    <td valign="center"><img src="./assets/imgs/yazi-before.png" /></td>
+    <td valign="center"><img src="./assets/imgs/yazi.png" /></td>
+</tr>
+</table>
+
 </details>
 
 &nbsp;
@@ -400,7 +411,20 @@ Copy `src/.config/yazi` -> `~/.config/yazi`
     <strong>🌐 Zen Browser</h4></strong>
 </summary>
 
-Copy `src/.config/kitty` -> `~/.config/kitty`
+Zen is a little bit trickier to customize.
+
+You would follow [Live Editing Zen Theme](https://docs.zen-browser.app/guides/live-editing) and use `src/.config/zen/userChrome.css` as source for your `userChrome.css`.
+
+<table>
+<tr>
+    <th><p align="center">Zen original</p></th>
+    <th><p align="center">With custom css</p></th>
+</tr>
+<tr>
+    <td valign="center" width="45%"><img src="./assets/imgs/zen-original.png" /></td>
+    <td valign="center"><img src="./assets/imgs/zen-browser.png" /></td>
+</tr>
+</table>
 
 </details>
 

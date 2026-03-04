@@ -155,8 +155,3 @@ window-rule {
     geometry-corner-radius 11
     clip-to-geometry true
 }
-
-window-rule {
-    match app-id="kitty"
-    default-column-width { proportion 0.8; }
-}

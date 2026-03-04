@@ -22,11 +22,7 @@
 
 &nbsp;
 
-&nbsp;
-
 <h3 align="center">_ PREVIEW _</h3><br/>
-
-&nbsp;
 
 <p align="center">
     <img src="./assets/imgs/kitty.png" alt="kitty" width="80%"/></br>
@@ -238,6 +234,8 @@ Copy files from `src/.config` to your `~/.config`. Edit as you want.
     <strong>🔥 niri</h4></strong>
 </summary>
 
+<img src="./assets/imgs/transparent.png" height="30" />
+
 Copy `src/.config/niri` → `~/.config/niri`
 
 ```md
@@ -310,6 +308,8 @@ include "./wallpaper.kdl"   // Remove this line
     <strong>🦉 Noctalia</h4></strong>
 </summary>
 
+<img src="./assets/imgs/transparent.png" height="30" />
+
 Copy `src/.config/noctalia` → `~/.config/noctalia`
 
 This Noctalia setup include 3 plugins:
@@ -361,6 +361,8 @@ This Noctalia setup include 3 plugins:
     <strong>😽 kitty</h4></strong>
 </summary>
 
+<img src="./assets/imgs/transparent.png" height="30" />
+
 Copy `src/.config/kitty` → `~/.config/kitty`
 
 <table>
@@ -394,6 +396,8 @@ window_padding_width        30 40   # Smaller
     <strong>🎮 yazi</h4></strong>
 </summary>
 
+<img src="./assets/imgs/transparent.png" height="30" />
+
 Copy `src/.config/yazi` → `~/.config/yazi`
 
 <table>
@@ -416,6 +420,8 @@ Copy `src/.config/yazi` → `~/.config/yazi`
 <summary>
     <strong>🌐 Zen Browser</h4></strong>
 </summary>
+
+<img src="./assets/imgs/transparent.png" height="30" />
 
 Zen is a little bit trickier to customize.
 
